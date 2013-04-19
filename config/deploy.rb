@@ -4,7 +4,7 @@ default_run_options[:pty] = true
 ssh_options[:forward_agent] = true
 
 set :application, "tyne-tickets.org"
-set :repository,  "git@github.com:tyne/tyne-tickets.org.git"
+set :repository,  "git@github.com:tyne/blog.tyne-tickets.org.git"
 
 set :scm, :git
 
